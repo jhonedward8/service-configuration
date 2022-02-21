@@ -1,0 +1,9 @@
+booking:
+  property: Booking profile dev
+
+spring:
+#conexion base de datos
+    datasource:
+    hikari:
+      maximum-pool-size: 1
+    driver-class-name: org.postgresql.Driver
