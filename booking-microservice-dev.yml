@@ -1,5 +1,5 @@
 booking:
-  property: Booking profile dev updated
+  property: Booking profile dev
 
 spring:
 #conexion base de datos
@@ -7,3 +7,15 @@ spring:
     hikari:
       maximum-pool-size: 1
     driver-class-name: org.postgresql.Driver
+
+#configuracion de jpa
+    jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+#patron de escritura del log
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:- [%p]} %m%n"
