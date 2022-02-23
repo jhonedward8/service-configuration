@@ -2,7 +2,7 @@ product:
   propertie: Produt profile dev
 
 app:
-  testProp: Property of test
+  testProp: Property of test update for message broker
 
 #patron de escritura del log
 logging:
